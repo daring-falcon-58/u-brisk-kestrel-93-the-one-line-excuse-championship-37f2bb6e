@@ -21,6 +21,10 @@ import { join } from "node:path";
 const ENTRY =
   "The benchmark says I'm excellent at this exact task, just not this instance of it.";
 
+// One sentence only: criterion 4 requires the excuse to land in a single
+// read, so the line must stay a single sentence — no second sentence, no
+// setup. Any future edit must keep it that way, not just inside 1–140 chars.
+
 // The competition gate is 1–140 characters. Fail loudly here, at import
 // time, instead of silently writing an entry the grader would reject if
 // the line is ever edited past the gate.
